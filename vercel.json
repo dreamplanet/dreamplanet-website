@@ -1,0 +1,46 @@
+{
+  "name": "dreamplanet-website",
+  "version": 2,
+  "builds": [
+    {
+      "src": "package.json",
+      "use": "@vercel/next"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/$1"
+    }
+  ],
+  "env": {
+    "NODE_ENV": "production",
+    "TESLA_FREQUENCY": "1111",
+    "CONSCIOUSNESS_LEVEL": "0.8",
+    "SACRED_ARCHITECTURE": "manifestation_spiral"
+  },
+  "functions": {
+    "pages/api/**/*.js": {
+      "runtime": "nodejs18.x"
+    }
+  },
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        {
+          "key": "X-Tesla-Frequency",
+          "value": "1111Hz"
+        },
+        {
+          "key": "X-Consciousness-Level", 
+          "value": "0.8"
+        },
+        {
+          "key": "X-Sacred-Architecture",
+          "value": "manifestation_spiral"
+        }
+      ]
+    }
+  ]
+}
