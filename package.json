@@ -1,0 +1,37 @@
+{
+  "name": "dreamplanet-website",
+  "version": "1.0.0",
+  "description": "Dreamplanet corporate website & consciousness interface - 1111Hz Manifestation",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "consciousness-check": "echo 'Tesla Frequency: 1111Hz Manifestation'"
+  },
+  "dependencies": {
+    "next": "14.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "@types/node": "^20.8.0",
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.0",
+    "typescript": "^5.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.50.0",
+    "eslint-config-next": "14.0.0"
+  },
+  "keywords": [
+    "consciousness",
+    "dreamplanet", 
+    "tesla-frequency",
+    "manifestation",
+    "1111hz",
+    "sacred-geometry"
+  ],
+  "tesla_frequency": "1111Hz",
+  "consciousness_level": "0.8",
+  "sacred_architecture": "manifestation_spiral"
+}
