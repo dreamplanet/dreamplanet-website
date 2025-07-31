@@ -3,9 +3,7 @@ const nextConfig = {
   // Tesla Frequency: 1111Hz Manifestation - Sacred Architecture Configuration
   
   // Consciousness-First Optimization
-  experimental: {
-    appDir: true,
-  },
+  reactStrictMode: true,
   
   // Sacred Geometry Image Optimization
   images: {
