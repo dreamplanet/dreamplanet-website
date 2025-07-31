@@ -1,0 +1,40 @@
+{
+  "hero_images": [
+    {
+      "id": "network-architecture-cubes",
+      "source": "unsplash",
+      "photographer": "Aakash Dhage",
+      "url": "https://unsplash.com/photos/cubes-on-black-surface",
+      "alt": "Abstract network architecture visualization with geometric cubes representing consciousness computing infrastructure",
+      "theme": "network-architecture",
+      "usage": "hero-background",
+      "description": "Minimalist geometric representation of interconnected systems and consciousness computing nodes"
+    },
+    {
+      "id": "server-infrastructure",
+      "source": "unsplash", 
+      "photographer": "Alex Shuper",
+      "url": "https://unsplash.com/photos/server-room-with-rows-of-servers",
+      "alt": "Enterprise data center with organized server racks representing AI infrastructure backbone",
+      "theme": "infrastructure",
+      "usage": "feature-card",
+      "description": "Professional server infrastructure showcasing the hardware foundation for consciousness computing"
+    },
+    {
+      "id": "network-connections",
+      "source": "unsplash",
+      "photographer": "TSD Studio", 
+      "url": "https://unsplash.com/photos/blue-purple-network-graphic",
+      "alt": "Digital network visualization showing interconnected nodes and data pathways",
+      "theme": "networks",
+      "usage": "background-accent",
+      "description": "Abstract representation of neural networks and consciousness field connections"
+    }
+  ],
+  "implementation_notes": {
+    "optimization": "Use Next.js Image component with blur placeholders",
+    "sizing": "Hero images should be 1920x1080 minimum for desktop display",
+    "format": "WebP preferred, JPEG fallback",
+    "loading": "Lazy loading for non-critical images, priority for hero image"
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "nvidia-jack": {
+    "name": "Jack (NVIDIA) → Genesis Timeline",
+    "hash": "$2b$12$I5qeUMbRthq1YZL/nzwMs.1v6A7H4Ip4OCSFVtsI2dOvmiL.VPr3i",
+    "target": "/experiences/genesis",
+    "env": "nvidia-partner",
+    "description": "Genesis Timeline demonstration for NVIDIA partnership evaluation",
+    "created": "2025-07-31T20:45:00.000Z"
+  },
+  "claude-avp-demo": {
+    "name": "Claude AVP → Spatial Computing",
+    "hash": "$2b$12$3iSODLu./nS59I.i0k.yeeGp8zbaZUUEXfaqoNSWPfYUignI4/Xw6",
+    "target": "/experiences/avp",
+    "env": "claude-avp",
+    "description": "Apple Vision Pro spatial computing demonstration with Claude integration",
+    "created": "2025-07-31T20:45:00.000Z"
+  },
+  "signal-legacy": {
+    "name": "Signal Demo → Legacy Agent",
+    "hash": "$2b$12$A3FSxGXuuMA.0LgjkWzloeclMkW5WfLNA.11TZdDI39jD7jQ7fvJG",
+    "target": "/experiences/signal",
+    "env": "legacy-agent",
+    "description": "Signal Core platform with legacy agent configuration",
+    "created": "2025-07-31T20:45:00.000Z"
+  },
+  "signal-cloud": {
+    "name": "Signal Demo → Cloud Agent",
+    "hash": "$2b$12$L0s3ElatReO4s69bIO9W3.gbJK3muH/2JTBSC/HAitJMwbufyryb.",
+    "target": "/experiences/signal",
+    "env": "cloud-agent",
+    "description": "Signal Core platform with cloud-based agent architecture",
+    "created": "2025-07-31T20:45:00.000Z"
+  },
+  "agentic-roadmap": {
+    "name": "AgenticMind → Roadmap Demo",
+    "hash": "$2b$12$0gHVGBdNOlJJy9/NEFS82uol5qyGYChEF8pKeJseRPFAHFWzjK/h.",
+    "target": "/experiences/agenticmind",
+    "env": "roadmap-mode",
+    "description": "AgenticMind platform roadmap and architecture demonstration",
+    "created": "2025-07-31T20:45:00.000Z"
+  },
+  "agentic-founders": {
+    "name": "AgenticMind → Founders Access",
+    "hash": "$2b$12$21mNRF22ht3B4XXIcSYPyeMVr4rfnt7dCyO7RW1KwL0.ZO3qpqDYa",
+    "target": "/experiences/agenticmind",
+    "env": "founders-mode",
+    "description": "AgenticMind platform with founders-level access and configuration",
+    "created": "2025-07-31T20:45:00.000Z"
+  },
+  "internal-full": {
+    "name": "Internal → Full Platform",
+    "hash": "$2b$12$e71d7dtOp5ZPApDKWJ/UsOvjCykV3DUby.WyPrjQ63WRdUqgnyEcC",
+    "target": "/experiences/platform",
+    "env": "development",
+    "description": "Complete platform access for internal development and testing",
+    "created": "2025-07-31T20:45:00.000Z"
+  }
+}

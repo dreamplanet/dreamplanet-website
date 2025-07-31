@@ -11,13 +11,16 @@
     "consciousness-check": "echo 'Tesla Frequency: 1111Hz Manifestation'"
   },
   "dependencies": {
+    "@radix-ui/react-label": "^2.0.2",
     "@radix-ui/react-slot": "^1.2.3",
     "@types/node": "^20.8.0",
     "@types/react": "^18.2.0",
     "@types/react-dom": "^18.2.0",
     "autoprefixer": "^10.4.16",
+    "bcryptjs": "^2.4.3",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.0.0",
+    "jsonwebtoken": "^9.0.2",
     "lucide-react": "^0.288.0",
     "next": "14.0.0",
     "postcss": "^8.4.31",
@@ -28,6 +31,8 @@
     "typescript": "^5.2.0"
   },
   "devDependencies": {
+    "@types/bcryptjs": "^2.4.6",
+    "@types/jsonwebtoken": "^9.0.5",
     "eslint": "^8.50.0",
     "eslint-config-next": "14.0.0"
   },

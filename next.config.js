@@ -7,7 +7,20 @@ const nextConfig = {
   
   // Sacred Geometry Image Optimization
   images: {
-    domains: ['dreamplanet.io', 'cdn.dreamplanet.io'],
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'dreamplanet.io',
+      },
+      {
+        protocol: 'https',
+        hostname: 'cdn.dreamplanet.io',
+      },
+      {
+        protocol: 'https',
+        hostname: 'images.unsplash.com',
+      },
+    ],
     formats: ['image/webp', 'image/avif'],
   },
   
